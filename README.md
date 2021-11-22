@@ -26,7 +26,7 @@ The solution to the lack of error messages is that the `lwip` submodule lib \
 was an empty directory despite updating all submodules. This has been done manually.
 
 This shouldn't exist...but it does...: \
-https://github.com/TheMindVirus/blob/rndis-dev/tinyusb_dev_net_lwip_webserver.uf2
+https://github.com/TheMindVirus/tree/rndis-dev/tinyusb_dev_net_lwip_webserver.uf2
 
 ### Next Steps
 * Copy the .uf2 file of choice onto your RP2040-based product in `BOOTSEL` mode
