@@ -1,0 +1,3 @@
+C:/Users/cotaa/Documents/Pico/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/cotaa/Documents/Pico/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/cotaa/Documents/Pico/build/pioasm/CMakeFiles/rebuild_cache.dir

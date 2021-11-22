@@ -1,0 +1,63 @@
+PROJECT_NAME            = "Raspberry Pi Pico SDK"
+PROJECT_BRIEF           = "Raspberry Pi Pico SDK documentation"
+PROJECT_NUMBER          = 1.3.0
+
+#STRIP_FROM_PATH        = D:/picobuild3/pico-sdk
+STRIP_FROM_PATH         =  D:/picobuild3/pico-sdk/src/common D:/picobuild3/pico-sdk/src/rp2_common D:/picobuild3/pico-sdk/src/rp2040
+#                         D:/picobuild3/build/pico-sdk
+#INPUT                  =  \
+#                         D:/picobuild3/pico-sdk \
+#                         D:/picobuild3/build/pico-sdk
+
+FILE_PATTERNS          = *.h \
+                         *.cpp \
+                         *.c \
+                         *.S \
+                         *.s \
+                         *.md
+
+USE_MDFILE_AS_MAINPAGE = D:/picobuild3/pico-sdk/docs/mainpage.md
+LAYOUT_FILE = D:/picobuild3/pico-sdk/docs/DoxygenLayout.xml
+HTML_FOOTER = D:/picobuild3/pico-sdk/docs/footer.html
+HTML_HEADER = D:/picobuild3/pico-sdk/docs/header.html
+
+OPTIMIZE_OUTPUT_FOR_C = YES
+# HTML_EXTRA_STYLESHEET = D:/picobuild3/pico-sdk/docs/customdoxygen.css
+HTML_EXTRA_STYLESHEET  = D:/picobuild3/pico-sdk/docs/normalise.css D:/picobuild3/pico-sdk/docs/main.css D:/picobuild3/pico-sdk/docs/styles.css
+HTML_EXTRA_FILES       = D:/picobuild3/pico-sdk/docs/logo-mobile.svg D:/picobuild3/pico-sdk/docs/logo.svg D:/picobuild3/pico-sdk/docs/search.svg \
+                         D:/picobuild3/pico-sdk/docs/main.js D:/picobuild3/pico-sdk/docs/pico.jpg D:/picobuild3/pico-sdk/docs/rp2040.png
+GENERATE_TREEVIEW      = YES # This is needed as it wraps the content area in an HTML tag that we need to use
+HTML_COLORSTYLE_HUE = 350
+HTML_COLORSTYLE_SAT = 200
+HTML_COLORSTYLE_GAMMA = 150
+GENERATE_LATEX = NO
+GENERATE_XML = YES
+GROUP_GRAPHS = NO
+
+ALIASES += tag=@internal
+ALIASES += end=@internal
+
+OUTPUT_DIRECTORY       = D:/picobuild3/build/pico-sdk/docs/doxygen
+INPUT                  = D:/picobuild3/pico-sdk/docs/index.h  D:/picobuild3/pico-sdk/src/common D:/picobuild3/pico-sdk/src/rp2_common D:/picobuild3/pico-sdk/src/rp2040 D:/picobuild3/pico-sdk/docs/
+
+#EXCLUDE               =  D:/picobuild3/pico-sdk/src/rp2_common/cmsis D:/picobuild3/pico-sdk/src/rp2040/hardware_regs D:/picobuild3/pico-sdk/src/rp2040
+EXCLUDE                =  D:/picobuild3/pico-sdk/src/rp2_common/cmsis D:/picobuild3/pico-sdk/src/rp2040/hardware_regs
+RECURSIVE              = YES
+EXAMPLE_PATH           = D:/picobuild3/pico-examples
+
+# This is needed as we have a number of static inline functions that need to be documented.
+EXTRACT_STATIC         = YES
+
+EXTRACT_ALL            = NO
+ALWAYS_DETAILED_SEC    = NO
+#REPEAT_BRIEF           = NO
+
+# Need these next options to ensure that functions with modifiers do not confuse the Doxygen parser.
+# And any further function modifiers here.
+MACRO_EXPANSION        = YES
+
+PREDEFINED             = __not_in_flash_func(x) \
+                         __time_critical_func(x) \
+                         __not_in_flash(x)= \
+                         __no_inline_not_in_flash(x)= \
+                         __attribute__(x)=

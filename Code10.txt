@@ -1,0 +1,10 @@
+This device cannot start. (Code 10)
+
+{Device Timeout}
+The specified I/O operation on %hs was not completed before the time-out period expired.
+
+Resolution: Read UAC 2.0 Class-Specific AS Isochronous Audio Data Endpoint Descriptor(4.10.1.2)
+https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-interface-association-descriptor
+(like UVC but for Audio)
+
+Solution: Builds were being improperly cached (marked as unchanged) by g++, run Build.bat every time
