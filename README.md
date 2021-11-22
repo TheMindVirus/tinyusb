@@ -24,12 +24,18 @@ in the mixer as a send/return path to and from the Adafruit Macropad RP2040. \
 A low frequency sine wave is generated from a 3xOsc and is sent to TinyUSB on RP2040. \
 The return signal is meant to be identical to the sent signal but there is some jitter.
 
+This shouldn't exist...but it does... \
+https://github.com/TheMindVirus/tinyusb/blob/master/tinyusb_dev_uac2_headset.uf2
+
 ### Current State of USB_UVC_VIDEO [video_capture]:
 ![video](https://github.com/TheMindVirus/tinyusb/blob/master/video.png)
 This capture was recorded in OBS Studio using a BlackMagicDesign Intensity Pro \
 at 720p@60Hz with an Xbox One in the HDMI chain and Windows on Raspberry Pi on Pi4 \
 at 1080p@59Hz connected to the Adafruit Macropad RP2040 generating colour bars \
 at 128x96@10Hz with an average throughput of 5 Frames Per Second (FPS).
+
+This also shouldn't exist...but it does... \
+https://github.com/TheMindVirus/tinyusb/blob/master/tinyusb_dev_video_capture.uf2
 
 ### Next Steps
 * Copy the .uf2 file of choice onto your RP2040-based product in `BOOTSEL` mode
