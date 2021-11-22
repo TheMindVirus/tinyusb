@@ -11,7 +11,7 @@ in a Windows 10 Development Environment (swap out toolchain to port)
 ### Deployment
 * Use and modify the `build#.bat` files provided to force recompilation
 * Use and modify the `deploy##.bat` only after having run `build##.bat`
-* The `deploy#.bat script only works when you connect 1 `RPI-RP2` in `BOOTSEL` mode
+* The `deploy#.bat` script only works when you connect 1 `RPI-RP2` in `BOOTSEL` mode
 * TinyUSB itself is contained within `pico-sdk/lib/tinyusb`
 * The entire portable toolchain for x86->arm32 is included in `pico-toolchain`
 * The build artifacts of the scripts are in `build/usb/device/tinyusb-device-examples`
