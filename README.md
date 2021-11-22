@@ -17,23 +17,20 @@ in a Windows 10 Development Environment (swap out toolchain to port)
 * The build artifacts of the scripts are in `build/usb/device/tinyusb-device-examples`
 * The source to edit is located in `pico-sdk/lib/tinyusb/examples/device`
 
-### Current State of USB_UAC2_AUDIO [uac2_headset]:
-![audio](https://github.com/TheMindVirus/tinyusb/blob/master/audio.png)
-This recording was captured in FL Studio Edison VST by routing audio with ASIO4ALL \
-in the mixer as a send/return path to and from the Adafruit Macropad RP2040. \
-A low frequency sine wave is generated from a 3xOsc and is sent to TinyUSB on RP2040. \
-The return signal is meant to be identical to the sent signal but there is some jitter.
+### Current State of USB_RNDIS_NETWORKING [net_lwip_webserver]:
+![rndis](https://github.com/TheMindVirus/tinyusb/blob/rndis-dev/rndis.png)
+The Macropad RP2040 with `tinyusb_dev_net_lwip_webserver.uf2` \
+has shown up as an RNDIS device in Windows 10 Device Manager. \
+As to whether the network functions or not is unknown. \
+The solution to the lack of error messages is that the `lwip` submodule lib \
+was an empty directory despite updating all submodules. This has been done manually.
 
-### Current State of USB_UVC_VIDEO [video_capture]:
-![video](https://github.com/TheMindVirus/tinyusb/blob/master/video.png)
-This capture was recorded in OBS Studio using a BlackMagicDesign Intensity Pro \
-at 720p@60Hz with an Xbox One in the HDMI chain and Windows on Raspberry Pi on Pi4 \
-at 1080p@59Hz connected to the Adafruit Macropad RP2040 generating colour bars \
-at 128x96@10Hz with an average throughput of 5 Frames Per Second (FPS).
+This shouldn't exist...but it does...: \
+https://github.com/TheMindVirus/blob/rndis-dev/tinyusb_dev_net_lwip_webserver.uf2
 
 ### Next Steps
 * Copy the .uf2 file of choice onto your RP2040-based product in `BOOTSEL` mode
 * On Windows 10 open Device Manager and look for a `TinyUSB ###` device or `Pico ###`
-* Check the functionality of the device in your choice of Audio/Visual Application
+* Check the functionality of the device in your choice of Networking Application
 * Make changes to the source code (preferably in a Python module, otherwise a C library)
 * Recompile by using `build###.bat` (don't use `deploy###.bat` on its own!!!)

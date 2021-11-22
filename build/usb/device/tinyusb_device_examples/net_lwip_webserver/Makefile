@@ -110,14 +110,2900 @@ depend:
 	cd D:/picobuild3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/rule:
+	cd D:/picobuild3/build && $(MAKE) -f CMakeFiles/Makefile2 usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/rule
+.PHONY : usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/rule
+
+# Convenience name for target.
+tinyusb_dev_net_lwip_webserver: usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/rule
+
+.PHONY : tinyusb_dev_net_lwip_webserver
+
+# fast build rule for target.
+tinyusb_dev_net_lwip_webserver/fast:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build
+.PHONY : tinyusb_dev_net_lwip_webserver/fast
+
+D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj: D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i: D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s: D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.obj: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.i: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.s: D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.obj: D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.obj
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.i: D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.s: D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.obj: D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.i: D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.s: D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.obj: D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.i: D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.s: D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.obj: D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.i: D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.s: D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/sem.obj: D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/sem.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/sem.i: D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/sem.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_sync/sem.s: D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/sem.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_sync/sem.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_time/time.obj: D_/picobuild3/pico-sdk/src/common/pico_time/time.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/time.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_time/time.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/time.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_time/time.i: D_/picobuild3/pico-sdk/src/common/pico_time/time.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/time.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_time/time.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/time.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_time/time.s: D_/picobuild3/pico-sdk/src/common/pico_time/time.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/time.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_time/time.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/time.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.obj: D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.i: D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.s: D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_util/datetime.obj: D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/datetime.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_util/datetime.i: D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/datetime.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_util/datetime.s: D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/datetime.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/datetime.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_util/pheap.obj: D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/pheap.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_util/pheap.i: D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/pheap.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_util/pheap.s: D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/pheap.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/pheap.c.s
+
+D_/picobuild3/pico-sdk/src/common/pico_util/queue.obj: D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/queue.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.obj
+
+D_/picobuild3/pico-sdk/src/common/pico_util/queue.i: D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/queue.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.i
+
+D_/picobuild3/pico-sdk/src/common/pico_util/queue.s: D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/queue.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/common/pico_util/queue.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_divider/divider.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_divider/divider.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_divider/divider.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+
+# target to build an object file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+src/main.obj: src/main.c.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/src/main.c.obj
+.PHONY : src/main.c.obj
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/usb_descriptors.obj: src/usb_descriptors.c.obj
+
+.PHONY : src/usb_descriptors.obj
+
+# target to build an object file
+src/usb_descriptors.c.obj:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/src/usb_descriptors.c.obj
+.PHONY : src/usb_descriptors.c.obj
+
+src/usb_descriptors.i: src/usb_descriptors.c.i
+
+.PHONY : src/usb_descriptors.i
+
+# target to preprocess a source file
+src/usb_descriptors.c.i:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/src/usb_descriptors.c.i
+.PHONY : src/usb_descriptors.c.i
+
+src/usb_descriptors.s: src/usb_descriptors.c.s
+
+.PHONY : src/usb_descriptors.s
+
+# target to generate assembly for a file
+src/usb_descriptors.c.s:
+	cd D:/picobuild3/build && $(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/src/usb_descriptors.c.s
+.PHONY : src/usb_descriptors.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... tinyusb_dev_net_lwip_webserver"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/fs.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/apps/http/httpd.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_alloc.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/altcp_tcp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/def.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/dns.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/inet_chksum.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/init.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ip.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/autoip.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/dhcp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/etharp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/icmp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/igmp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_addr.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/ipv4/ip4_frag.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/mem.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/memp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/netif.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/pbuf.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/raw.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/stats.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/sys.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_in.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/tcp_out.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/timeouts.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/core/udp.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/ethernet.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/lwip/src/netif/slipif.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dhserver.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/dnserver.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... D_/picobuild3/pico-sdk/lib/tinyusb/src/tusb.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_time/time.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_time/time.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... D_/picobuild3/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_claim/claim.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_platform/platform.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... D_/picobuild3/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... src/main.obj"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/usb_descriptors.obj"
+	@echo "... src/usb_descriptors.i"
+	@echo "... src/usb_descriptors.s"
 .PHONY : help
 
 

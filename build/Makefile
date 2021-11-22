@@ -397,6 +397,19 @@ tinyusb_dev_msc_dual_lun/fast:
 .PHONY : tinyusb_dev_msc_dual_lun/fast
 
 #=============================================================================
+# Target rules for targets named tinyusb_dev_net_lwip_webserver
+
+# Build rule for target.
+tinyusb_dev_net_lwip_webserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tinyusb_dev_net_lwip_webserver
+.PHONY : tinyusb_dev_net_lwip_webserver
+
+# fast build rule for target.
+tinyusb_dev_net_lwip_webserver/fast:
+	$(MAKE) -f usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build.make usb/device/tinyusb_device_examples/net_lwip_webserver/CMakeFiles/tinyusb_dev_net_lwip_webserver.dir/build
+.PHONY : tinyusb_dev_net_lwip_webserver/fast
+
+#=============================================================================
 # Target rules for targets named tinyusb_dev_uac2_headset
 
 # Build rule for target.
@@ -517,6 +530,7 @@ help:
 	@echo "... tinyusb_dev_hid_multiple_interface"
 	@echo "... tinyusb_dev_midi_test"
 	@echo "... tinyusb_dev_msc_dual_lun"
+	@echo "... tinyusb_dev_net_lwip_webserver"
 	@echo "... tinyusb_dev_uac2_headset"
 	@echo "... tinyusb_dev_usbtmc"
 	@echo "... tinyusb_dev_video_capture"

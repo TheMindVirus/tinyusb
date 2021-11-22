@@ -387,6 +387,12 @@ tinyusb_dev_msc_dual_lun_BINARY_DIR:STATIC=D:/picobuild3/build/usb/device/tinyus
 tinyusb_dev_msc_dual_lun_SOURCE_DIR:STATIC=D:/picobuild3/pico-sdk/lib/tinyusb/examples/device/msc_dual_lun
 
 //Value Computed by CMake
+tinyusb_dev_net_lwip_webserver_BINARY_DIR:STATIC=D:/picobuild3/build/usb/device/tinyusb_device_examples/net_lwip_webserver
+
+//Value Computed by CMake
+tinyusb_dev_net_lwip_webserver_SOURCE_DIR:STATIC=D:/picobuild3/pico-sdk/lib/tinyusb/examples/device/net_lwip_webserver
+
+//Value Computed by CMake
 tinyusb_dev_uac2_headset_BINARY_DIR:STATIC=D:/picobuild3/build/usb/device/tinyusb_device_examples/uac2_headset
 
 //Value Computed by CMake
@@ -550,7 +556,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=122
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=123
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
